@@ -1,0 +1,29 @@
+{
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.wordWrap": "on",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+      "**/.next": true,
+      "node_modules": true
+    },
+    "prettier.requireConfig": true,
+    "prettier.printWidth": 80,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "eslint.enable": true,
+    "eslint.packageManager": "yarn",
+    "eslint.options": {
+      "configFile": ".eslintrc.js"
+    },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always"
+  }
+  
